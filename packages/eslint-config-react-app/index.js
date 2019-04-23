@@ -73,6 +73,8 @@ module.exports = {
       indent: 'off',
       'no-array-constructor': 'off',
       'no-unused-vars': 'off',
+      // In Typescript constructors without body are used to assign class members
+      'no-useless-constructor': 'off',
 
       '@typescript-eslint/no-angle-bracket-type-assertion': 'warn',
       '@typescript-eslint/no-array-constructor': 'warn',
